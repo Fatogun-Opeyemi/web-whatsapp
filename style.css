@@ -1,0 +1,288 @@
+@font-face {
+    font-family:'sf pro';
+    src: url('/sf-pro-display-cufonfonts/SFPRODISPLAYHEAVYITALIC.OTF')
+    format('otf'),
+    url('/sf-pro-display-cufonfonts/SFPRODISPLAYHEAVYITALIC.OTF')
+    format('otf');
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family:'sf pro';
+
+    .gendiv1{
+         background-color: rgb(255, 255, 255); padding: 112px 60px 0px 60px;width: 79%; height: 650px; margin-left: 10.1vw; margin-top: -22vh; border-radius:3px;
+        box-shadow: 1px 1px 1px 1px whitesmoke;
+
+        .subdiv1{
+            display: flex; border: 1px solid rgb(209, 215, 219); padding: 30px; gap: 21px; margin-top: -60px; margin-left: 0px; width: 100%; border-radius: 6px;
+
+            .p3{
+                font-size: 17px;
+                font-weight: 400;
+                width:43ch; 
+
+                
+            }
+
+            span{
+                font-size: 15px;
+                font-weight: 400;
+                color: #64656f;
+                margin-left: -25.5rem;
+                margin-top: 1.4rem;
+                width: 60ch;
+            }
+            .b1{
+                /* border: 6px solid green; border-radius: 60px; width: 180px; background-color: green; padding-left: 22px;height: 50px; color: white; font-size: 23px; */
+                background-color: #008069;
+                border-color: #008069;
+                color: white;
+                font-size: 14px;
+                font-weight: 500;
+                margin-left: 2rem;
+                height: 2.4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                border-radius: 90px;
+            }
+            
+            img{
+                padding-left: 9px;
+            }
+        }
+
+
+        .p5{
+            padding-top: 25px; font-size: 27px; color: #2d3236b5; font-weight:lighter; width: 50%;
+            margin-left: -2px;
+
+           
+        }
+
+        ol{
+            line-height: 2.7;font-size: 18px;width: 53%; 
+            font-weight: 400;
+            display: flex;
+            flex-direction: column;
+            padding-left: 1.4rem;
+            padding-top: 2.3rem;
+            color: #3b4a54;
+
+            li{
+                padding-top: 1px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                
+                
+
+                b{
+                    font-weight: 600;
+                }
+
+                
+            }
+        }
+        
+        .p6{
+            margin-left: 620px; margin-top: -370px;
+            height: 400px;
+            
+            img{
+                width:100%;
+                margin-top: 20vh;
+            }
+
+            
+        }
+
+
+        hr{
+            margin-top: 24px; color:red; margin-bottom: 50px;
+        }
+
+        .p7{
+            a{
+                text-decoration: none; color:rgb(0, 168, 132); font-size: 20.2px;font-weight: 400;
+            }
+        }
+    }
+
+
+
+
+
+
+    .gendiv2{
+         background-color: #f9f9fa;width: 79%; height: 85vh; margin-left: 10.1vw; margin-top: -10px; justify-content: center; align-items: center;
+         box-shadow: 2px 2px 2px 2px #f9f9fa;
+
+        .p8{
+             padding-top: 50px; font-size: 26px;
+            text-align: center;
+            color: #41525dd8;
+            font-weight: 300;
+        }
+
+        .p9{
+            text-align: center;
+            margin-top: 13px;
+            a{
+                text-decoration: none; color: rgb(0,168,132); font-size: 13.5px;
+                
+            }
+        }
+
+        .p10{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+
+            .vid{
+                max-width: 100%;
+                max-height: 100%;
+                padding-top: 30px;
+            }
+        }
+    }
+}
+
+nav{
+    background-color: rgba(0, 168, 132);
+    height: 38vh;
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    gap: 0.5rem;
+}
+
+nav>p>img{
+    width: 23%;
+    margin-left: 22.5vh;
+    
+
+   
+}
+
+.web{
+    padding-top: 13px;
+    font-size: 14px;
+    color: white;
+    font-weight:600;
+    
+}
+
+
+@media screen and (max-width: 480px) {
+html{
+    overflow-x: hidden !important;
+   
+    padding-right: 0px !important;
+}
+body{
+    height: 400vh;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+    nav{
+        display: flex;
+        gap: 12.7rem;
+        height: 13vh;
+        margin-bottom: 22vh;
+
+        p{
+            margin-left: -18vh;
+
+            img{
+                width:20%;
+            }
+            
+
+        }
+    }
+
+    .gendiv1{
+        width: 100%;
+        
+        padding-top: -1px !important; 
+        width: 100% !important; 
+        height: 820px !important; 
+        margin-left: 0 !important;
+        background-color: black;
+
+        .subdiv1{
+            width: 90svw !important;
+            margin-left: -40px !important;
+
+            span{
+                display: none;
+            }
+            
+            .p3{
+                width: auto !important;
+                margin-top: -10px;
+                display: none;
+                
+            }
+
+            .b1{
+                margin-left: -20px !important;
+            }
+        }
+
+        .p5{
+            width: 27ch !important;
+            margin-left: -25px !important;
+        }
+
+        ol{
+            width: 100svw!important;
+            margin-left: -60px; 
+            font-size: 95% !important;
+            padding-bottom: 22vh;
+
+        }
+
+        hr{
+            width: 90svw;
+            margin-left: -36px;
+        }
+
+        .p6{
+               
+            img{
+                width: 55vw!important;
+                margin-left:-130vw ;
+                margin-top: 16vh !important;
+            }
+        }
+        .p7{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                text-align: center !important;
+            }
+        }
+    }
+
+
+    .gendiv2{
+            width: 100% !important;   
+            margin-top: 0 !important;
+            margin-left: 0 !important;
+            
+    }
+}
